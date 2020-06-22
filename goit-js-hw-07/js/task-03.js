@@ -44,7 +44,7 @@ const itemRef = gallery.insertAdjacentHTML('beforeend', `<li><img src="${image.u
 
 
 const listRef = document.querySelector('ul').classList.toggle('gallary');
-const itemsRef = document.querySelectorAll('.gallary').classList.toggle('itemImage');
+const itemsRef = document.querySelectorAll('.gallery').classList.toggle('itemImage');
 
 console.log(listRef);
 console.log(itemsRef);

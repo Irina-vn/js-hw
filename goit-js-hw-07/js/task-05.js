@@ -7,9 +7,7 @@
 // <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
 
  const inputRef = document.querySelector('#name-input');
-//  console.log(inputRef);
  const spanNameInput = document.querySelector('#name-output');
-//  console.log(spanNameInput);
 
  inputRef.addEventListener('input', event => {
      event.preventDefault();
