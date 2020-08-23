@@ -8,34 +8,34 @@
 // addItem(item) - получает новый товар и добавляет его к текущим
 // removeItem(item) - получет товар и, если он есть, удаляет его из текущих
 
-class Storage{
+class Storage {
 
-constructor(items) {
-this.items = items;
-};
+    constructor(items) {
+        this.items = items;
+    };
 
-getItems(item){
-    return (this.items);
-};
+    getItems(item) {
+        return (this.items);
+    };
 
-addItem(item){
+    addItem(item) {
         this.items.push(item);
-};
-// тут не вірно. Я не знаю як видалити елемент масиву по назві, а не по індексу
-removeItem(item){    
-    this.items.splice(1, 1);
+    };
+    // тут не вірно. Я не знаю як видалити елемент масиву по назві, а не по індексу
+    removeItem(item) {
+        this.items.splice(1, 1);
 
-};
+    };
 
 
 };
 
 
 const storage = new Storage([
-  'Нанитоиды',
-  'Пролонгер',
-  'Железные жупи',
-  'Антигравитатор',
+    'Нанитоиды',
+    'Пролонгер',
+    'Железные жупи',
+    'Антигравитатор',
 ]);
 
 
@@ -49,4 +49,4 @@ storage.removeItem('Пролонгер');
 console.table(storage.items); // [ "Нанитоиды", "Железные жупи", "Антигравитатор", "Дроид" ]
 
 // storage.removeItem('Дроид');
-// console.table(storage.items); 
+// console.table(storage.items);
