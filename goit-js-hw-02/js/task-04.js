@@ -14,15 +14,15 @@
 
 
 
- const formatString = function(string) {
+const formatString = function(string) {
 
-    if(string.length > 40){
-        console.log(string.slice(0, 40) + '...');}
-        else{
-            console.log(string);
-        }
+    if (string.length > 40) {
+        return (string.slice(0, 40) + '...');
+    } else {
+        return (string);
+    }
     // return(string);
-  };
+};
 
 
 
@@ -39,8 +39,8 @@ console.log(formatString('Curabitur ligula sapien.'));
 // вернется оригинальная строка
 
 console.log(
-  formatString(
-    'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
-  ),
+    formatString(
+        'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
+    ),
 );
 // вернется форматированная строка

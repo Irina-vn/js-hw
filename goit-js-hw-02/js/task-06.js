@@ -20,10 +20,10 @@ const numbers = [];
 let total = 0;
 
 
-do{
+do {
     let input = prompt('Введите число');
 
-    if(input === null) {
+    if (input === null) {
         break;
     }
 
@@ -31,19 +31,18 @@ do{
 
     const notANumber = Number.isNaN(input);
 
-    if(notANumber){
+    if (notANumber) {
         alert('Было введено не число, попробуйте еще раз');
-    } else{
+    } else {
         numbers.push(input);
     }
 
 }
-while(true);
+while (input !== null);
 
 for (const number of numbers) {
     total += number;
-  }
+}
 
 
 console.log(`Общая сумма чисел равна ${total}`);
-

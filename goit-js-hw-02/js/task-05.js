@@ -6,13 +6,15 @@
 
 const checkForSpam = function(message) {
 
-    let array = message.split(/\b/);    //?
+    let array = message.split(/\b/); //?
 
 
-    for(let i = 0; i < array.length; i += 1){
+    for (let i = 0; i < array.length; i += 1) {
         let word = array[i].toLowerCase();
 
-        if(word === 'spam' || word === 'sale'){
+        // return word === 'spam' || word === 'sale'; // не спрацювує як треба
+
+        if (word === 'spam' || word === 'sale') {
             return true;
         }
 
