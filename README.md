@@ -1,4 +1,11 @@
 # js-hw
+https://irina-vn.github.io/js-hw/goit-js-hw-01/
+https://irina-vn.github.io/js-hw/goit-js-hw-02/
+https://irina-vn.github.io/js-hw/goit-js-hw-03/
+https://irina-vn.github.io/js-hw/goit-js-hw-04/
+https://irina-vn.github.io/js-hw/goit-js-hw-05/
+https://irina-vn.github.io/js-hw/goit-js-hw-06/
+https://irina-vn.github.io/js-hw/goit-js-hw-07/
 
 https://irina-vn.github.io/js-hw/goit-js-hw-08-gallery/
 
