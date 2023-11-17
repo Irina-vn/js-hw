@@ -11,7 +11,7 @@ https://irina-vn.github.io/js-hw/goit-js-hw-05/
 
 https://irina-vn.github.io/js-hw/goit-js-hw-06/
 
-https://irina-vn.github.io/js-hw/goit-js-hw-07/
+
 
 https://irina-vn.github.io/js-hw/goit-js-hw-08-gallery/
 
